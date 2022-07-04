@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <table border = 1>
+         {% for key, value in result.iteritems() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+      </table>
+      <!-- <h1>Download File</h1>
+      <div class="container" align="center">
+       <a href="/return-files/{{value}}" target="blank"><button class='btn btn-default'>Download</button></a>
+      </div> -->
+      
+   </body>
+</html>
